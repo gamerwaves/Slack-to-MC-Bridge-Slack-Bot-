@@ -11,7 +11,7 @@ SLACK_APP_TOKEN = os.getenv("SLACK_APP_TOKEN")
 
 TARGET_CHANNEL = "C029E8FARRC"
 
-WEBHOOK_URL = "http://localhost:8080/webhook"
+WEBHOOK_URL = os.getenv("WEBHOOK_URL")
 
 app = App(token=SLACK_BOT_TOKEN)
 

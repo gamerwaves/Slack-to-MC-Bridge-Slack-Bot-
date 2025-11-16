@@ -46,4 +46,5 @@ Clone this repo, and then create a slack bot using this manifest:
 ```
 
 Then, copy .env.example to .env and fill in the information based on your slack bot.
+
 Finally, run main.py.
